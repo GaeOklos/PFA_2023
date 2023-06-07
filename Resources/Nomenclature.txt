@@ -1,0 +1,87 @@
+______
+
+ASSETS
+______
+
+
+Models
+	Props : SM_MeshName
+	Characters : CH_CharacterName
+		     SK_CharacterName -> Characters Skeletal Meshes
+
+Textures
+	T_TextureName_Map -> (BaseColor/PackedORM/etc.) 
+	T_Tiling_TextureName_Map -> (BaseColor/PackedORM/etc.)
+	T_Trim_TextureName_Map -> (BaseColor/PackedORM/etc.)
+
+Materials
+	M_MaterialName
+ 	MI_MaterialName -> Instances
+
+VFX
+	VFX_VisualEffectName
+	NS_NigaraSystemName
+	NE_NiagaraEmitterName
+	P_ParticlesName
+
+Audio
+	SW_MusicName
+	SW_SoundEffectName
+
+Blueprints
+	BP_BlueprintName
+	BP_IN_MeshName
+	ST_StructureName
+	EN_EnumeratorName
+	
+Maps
+	M_#_MapName_Version
+
+_______
+
+FOLDERS
+_______
+
+
+Content
+	Animation
+		Custom?
+		Mixamo
+
+	Audio
+		Music
+		SFX
+
+	Characters
+		Allies
+		Ennemies
+		Balam (Player)
+
+	Maps
+
+	Materials
+		
+	Packages
+		Any third party packs
+
+	StaticMeshes
+		Architecture
+		Equipment
+		Foliage
+		    GroundCover
+		    Plants
+		    Trees
+		Props
+
+	VFX
+	   Clouds
+	   Combat
+	   Fire
+	   Particles
+	   Water
+	   
+	Tech
+	   Blueprints
+	   Inputs
+
+
